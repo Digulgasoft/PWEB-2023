@@ -535,6 +535,23 @@ prepararAmbiente
 echo $key > /bin/ppweb/botpag/chave_inst
 sleep 1
 botpag
+else
+echo "[-] ESSA CHAVE NÃO É VÁLIDA!"
+sleep 3
+bot_telegram
+exit 1
+fi
+else
+key=$(cat /bin/ppweb/botpag/chave_inst) &>/dev/null
+if [[ "$key" = "$chave" ]]
+then
+botpag
+else
+echo "[-] ESSA CHAVE NÃO É VÁLIDA!"
+sleep 3
+bot_telegram
+exit 1
+fi
 fi
 }
 prepararAmbiente(){
